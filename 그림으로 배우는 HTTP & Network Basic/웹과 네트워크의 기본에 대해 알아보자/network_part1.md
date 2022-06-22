@@ -13,13 +13,14 @@
 클라이언트 → 서버 브라우저 주소 입력란에 URL을 입력하여 어딘가에 송신
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4b7d76c-c4e7-46da-8d9c-5c93e410f2a6/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T014756Z&X-Amz-Expires=86400&X-Amz-Signature=7f78c0e0e6716c1bebe692453aa975746eefdf70f3540dc5893db5980f7fe5cf&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98.png">
 </p>
+
 
 클라이언트 ← 서버 어딘가에서 응답이 돌아오면 웹 페이지가 표시 됨
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94e19888-747c-43f3-b597-bdc016be5cb0/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015030Z&X-Amz-Expires=86400&X-Amz-Signature=bf0b1f3f9b99de24ca5ff4f5ef6c61f1da2e5458123cc8556b2fa14b8fef2617&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%201.png">
 </p>
 
 웹 서버로 부터 리소스라고 불리는 파일 등의 정보를 얻어 페이지를 볼 수 있는 것이다.
@@ -62,7 +63,7 @@
 - 이렇게 인터넷과 관련된 프로토콜을 모은 것들을 TCP/IP라고 한다.
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e84d6337-e92c-468d-af24-19a9bf9470ab/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015044Z&X-Amz-Expires=86400&X-Amz-Signature=69083225c98fb5acfba904545c7b1c4768863ec48e74cd6cb61c1bcecc99b65b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%202.png">
 </p>
 
 ### 1.3.2 계층으로 관리하는 TCP/IP
@@ -71,13 +72,13 @@
 - 계층화로 나누면 사양이 변경 되었을때 해당 계층만 바꾸면 되고, 연결되어 있는 부분만 결정되어 각 계층의 내부는 자유롭게 설계할 수 있다.
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3840e949-99c4-4e71-8fb1-bbd32a8057af/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015111Z&X-Amz-Expires=86400&X-Amz-Signature=d0331baeeca50eb9354f7d8c8cc578c7e00a48271d32be51672384d4f0bd0ce1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%203.png">
 </p>
 
 ### 1.3.3 TCP/IP 통신의 흐름
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94d15d7a-df62-4d31-ac27-ba1dc99ffa0c/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015126Z&X-Amz-Expires=86400&X-Amz-Signature=023c51d4663c19e82b133e3b956d09785a430e835b4ba94800760150b017955d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%204.png">
 </p>
 
 예시 :
@@ -91,7 +92,7 @@
 수신 측은 계층을 거칠 때마다 해당 계층마다 사용한 헤더를 삭제 
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/36b44b46-022c-429e-8d06-766e84c50df7/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015141Z&X-Amz-Expires=86400&X-Amz-Signature=10c4a9116a54946ec3cbfc72b08080691f5d93ed54bfa38444c62ed03ef3e6e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%205.png">
 </p>
 
 ## 1.4 IP, TCP, DNS
@@ -119,7 +120,7 @@
 - TCP의 신뢰성은 3-way handshake 방법을 사용한다.
     
     <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a3011c06-226f-4ed0-9363-0d736896d689/img.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015157Z&X-Amz-Expires=86400&X-Amz-Signature=3c73b965f0edb2717aeefbfe8b74eea46338f915b92104d17cafd225f5368584&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%206.png">
 </p>
     
 
@@ -137,7 +138,7 @@
 ## 한눈에 보기
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4416af91-6596-4f44-82b4-cdb5aa992eef/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015213Z&X-Amz-Expires=86400&X-Amz-Signature=37b1ef30863b4c1fa4a8989861c9c7a1e557a009d24c2775daeccd768e77ffc6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%207.png">
 </p>
 ## 1.7 URI와 URL
 
@@ -154,7 +155,7 @@ URI : Unifrom Resource Identifiers
 ### 1.7.2 URL 포맷
 
 <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c88835eb-1a74-42cc-92dd-9b443ca15ca7/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015232Z&X-Amz-Expires=86400&X-Amz-Signature=8439cd84df791e307c6cdfa5e8513461a1bfb1533601b130d5d5dffd293bc59d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/%EC%BA%A1%EC%B2%98%208.png">
 </p>
 
 - 스키마 : 사용할 프로토콜을 뜻하며 웹에서는 http, https를 사용한다.
@@ -213,7 +214,7 @@ Uniform Resource Identifier
     ### 💡URL을 포함한 URI 이다.
     
     <p align="center">
-  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0b54f355-b17a-4d68-ae62-d2d86c2120f0/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015252Z&X-Amz-Expires=86400&X-Amz-Signature=219bd25455c4c06bb6e393f7777e262d4fe901385dae60b04a491bb3e9eb7bf4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+  <img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%9B%B9%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/img/img.png">
 </p>
     
 3. http://mond.co.kr/medicine?page=2
