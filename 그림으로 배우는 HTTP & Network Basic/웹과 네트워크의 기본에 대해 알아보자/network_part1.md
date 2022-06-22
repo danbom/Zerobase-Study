@@ -12,11 +12,15 @@
 
 클라이언트 → 서버 브라우저 주소 입력란에 URL을 입력하여 어딘가에 송신
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4b7d76c-c4e7-46da-8d9c-5c93e410f2a6/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T014756Z&X-Amz-Expires=86400&X-Amz-Signature=7f78c0e0e6716c1bebe692453aa975746eefdf70f3540dc5893db5980f7fe5cf&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 클라이언트 ← 서버 어딘가에서 응답이 돌아오면 웹 페이지가 표시 됨
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%201.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94e19888-747c-43f3-b597-bdc016be5cb0/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015030Z&X-Amz-Expires=86400&X-Amz-Signature=bf0b1f3f9b99de24ca5ff4f5ef6c61f1da2e5458123cc8556b2fa14b8fef2617&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 웹 서버로 부터 리소스라고 불리는 파일 등의 정보를 얻어 페이지를 볼 수 있는 것이다.
 
@@ -57,18 +61,24 @@
 - 프로토콜은 케이블 규격, IP주소 지정방법, 떨어진 상대를 찾기위한 방법, 그곳에 도달하는 순서, 웹을 표시하기 위한 순서 등등 이다.
 - 이렇게 인터넷과 관련된 프로토콜을 모은 것들을 TCP/IP라고 한다.
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%202.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e84d6337-e92c-468d-af24-19a9bf9470ab/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015044Z&X-Amz-Expires=86400&X-Amz-Signature=69083225c98fb5acfba904545c7b1c4768863ec48e74cd6cb61c1bcecc99b65b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 ### 1.3.2 계층으로 관리하는 TCP/IP
 
 - 4 Layer
 - 계층화로 나누면 사양이 변경 되었을때 해당 계층만 바꾸면 되고, 연결되어 있는 부분만 결정되어 각 계층의 내부는 자유롭게 설계할 수 있다.
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%203.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3840e949-99c4-4e71-8fb1-bbd32a8057af/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015111Z&X-Amz-Expires=86400&X-Amz-Signature=d0331baeeca50eb9354f7d8c8cc578c7e00a48271d32be51672384d4f0bd0ce1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 ### 1.3.3 TCP/IP 통신의 흐름
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%204.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94d15d7a-df62-4d31-ac27-ba1dc99ffa0c/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015126Z&X-Amz-Expires=86400&X-Amz-Signature=023c51d4663c19e82b133e3b956d09785a430e835b4ba94800760150b017955d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 예시 :
 
@@ -80,7 +90,9 @@
 
 수신 측은 계층을 거칠 때마다 해당 계층마다 사용한 헤더를 삭제 
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%205.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/36b44b46-022c-429e-8d06-766e84c50df7/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015141Z&X-Amz-Expires=86400&X-Amz-Signature=10c4a9116a54946ec3cbfc72b08080691f5d93ed54bfa38444c62ed03ef3e6e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 ## 1.4 IP, TCP, DNS
 
@@ -106,7 +118,9 @@
 - 쉽게 말하지면, 대용량의 데이터를 보내기 쉽게 작게 분해하여 상대에게 보내고, 정확하게 도착했는지 확인하는 역할
 - TCP의 신뢰성은 3-way handshake 방법을 사용한다.
     
-    ![img.png](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/img.png)
+    <p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a3011c06-226f-4ed0-9363-0d736896d689/img.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015157Z&X-Amz-Expires=86400&X-Amz-Signature=3c73b965f0edb2717aeefbfe8b74eea46338f915b92104d17cafd225f5368584&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img.png%22&x-id=GetObject">
+</p>
     
 
 자세한 내용은 저의 블로그를 한번 보는걸 추천
@@ -122,8 +136,9 @@
 
 ## 한눈에 보기
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%206.png)
-
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4416af91-6596-4f44-82b4-cdb5aa992eef/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015213Z&X-Amz-Expires=86400&X-Amz-Signature=37b1ef30863b4c1fa4a8989861c9c7a1e557a009d24c2775daeccd768e77ffc6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 ## 1.7 URI와 URL
 
 ### 1.7.1 URI는 리소스 식별자
@@ -138,7 +153,9 @@ URI : Unifrom Resource Identifiers
 
 ### 1.7.2 URL 포맷
 
-![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%207.png)
+<p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c88835eb-1a74-42cc-92dd-9b443ca15ca7/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015232Z&X-Amz-Expires=86400&X-Amz-Signature=8439cd84df791e307c6cdfa5e8513461a1bfb1533601b130d5d5dffd293bc59d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
 
 - 스키마 : 사용할 프로토콜을 뜻하며 웹에서는 http, https를 사용한다.
 - 자격정보(크리덴셜) : 서버로부터 리소스를 취득하려면 자격정보가 필요ID 와 Password 지정 옵션이 있다.
@@ -195,7 +212,9 @@ Uniform Resource Identifier
     
     ### 💡URL을 포함한 URI 이다.
     
-    ![캡처.PNG](%E1%84%8C%E1%85%A6%201%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%80%E1%85%AA%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%20cc2209eab147484489eb0e2fa434c017/%EC%BA%A1%EC%B2%98%208.png)
+    <p align="center">
+  <img  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0b54f355-b17a-4d68-ae62-d2d86c2120f0/%EC%BA%A1%EC%B2%98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T015252Z&X-Amz-Expires=86400&X-Amz-Signature=219bd25455c4c06bb6e393f7777e262d4fe901385dae60b04a491bb3e9eb7bf4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.PNG.png%22&x-id=GetObject">
+</p>
     
 3. http://mond.co.kr/medicine?page=2
     
