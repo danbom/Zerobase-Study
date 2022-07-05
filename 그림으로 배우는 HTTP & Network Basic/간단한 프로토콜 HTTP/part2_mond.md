@@ -4,8 +4,6 @@
 http는 클라이언트와 서버의 역할을 명확하게 정확하게 정하고 구별
 
 ## 2.2 request와 response를 교환하여 성립
-클라이언트 -request-> 서버
-          <-reponse-
 서버는 request를 수신하지 않으면 response가 발생하지 않는다.
 <p align="center"><img  src="https://github.com/mond1219/Zerobase-Study/blob/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EA%B0%84%EB%8B%A8%ED%95%9C%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C%20HTTP/img/1.PNG">
 </p>
@@ -26,7 +24,7 @@ http는 클라이언트와 서버의 역할을 명확하게 정확하게 정하�
 
 ## 2.3 HTTP는 상태를 유지하지 않는 프로토콜
 
-Http는 request와 response를 교환하는 동안에 status 관리를 하지 않는 satateless 프로토콜이다.   
+Http는 request와 response를 교환하는 동안에 status 관리를 하지 않는 stateless 프로토콜이다.   
 http프로토콜 레벨에서 이전에 보냈던 리퀘스트나 이미 되돌려준 리스폰스에 대해 알 수 없다.   
 데이터를 매우 빠르고 확실하게 처리하는 범위성을 확보한 간단한 설계   
 웹이 진화함에 따라 상태를 유지해야하는 필요성 발생( ex : 로그인 상태) -> Cookie 도입   
@@ -37,14 +35,14 @@ http프로토콜 레벨에서 이전에 보냈던 리퀘스트나 이미 되돌�
 HTTP는 URI를 사용하여 인터넷 상의 리소스를 지정하고 호출한다.   
 request URI 지정 방법
 
-### 1.모든 URI를 request URI에 포함
+#### 1.모든 URI를 request URI에 포함
    GET htttp://mond.com/htm HTTP/1.1
 
-### 2. Host 헤더 필드에 네트워크 로케이션을 포함
+#### 2. Host 헤더 필드에 네트워크 로케이션을 포함
   GET /index.htm HTTP /1.1
   Host: www.mond.com
 
-### 3. 특정 리소스가 아닌 서버 자신에게 request를 송신하는 경우
+#### 3. 특정 리소스가 아닌 서버 자신에게 request를 송신하는 경우
   OPTIONS * HTTP/1.1  
 
 ## 2.5 서버에 임무를 부여하는 HTTP 메소드
@@ -116,7 +114,7 @@ request URI로 식별된 리소스를 요청
     
   ### 😃 장점
   - TCP 커넥션의 연결과 종료가 반복되는 오버헤드를 줄여 서버의 부하를 경감
-  - 오버헤드를 줄인만큼 request와 response를 줄여 웹페이지가 빨라짐   
+  - 오버헤드를 줄인만큼 웹페이지가 빨라짐   
   - HTTP/1.1에서는 표준이지만 HTTP/1.0은 일부만 지원
 
   ### 2.7.2 파이프라인화
