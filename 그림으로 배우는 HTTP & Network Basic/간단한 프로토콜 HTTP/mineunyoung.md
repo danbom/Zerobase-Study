@@ -93,7 +93,7 @@ Content-Type: text/html
 |`POST`|Body를 통해 데이터 전달 및 처리|✔|✔|❌|주로 신규 리소스 등록, 프로세스 처리 등에 사용한다. 또 다른 메소드로 처리하기 애매한 경우에도 사용된다.|
 |`PUT`|파일 전송|✔|✔|✔|자체 인증 기능이 없어 보안 상의 문제 발생 가능성이 있어 일반 웹 사이트에선 사용하지 않는다.|
 |`DELETE`|리퀘스트 URI로 지정된 리소스 파일 삭제|❌|✔|✔|PUT과 마찬가지로 자체 인증 기능이 없다.|
-|`OPTIONS`|리퀘스트 URI로 지정한 리소스가 제공하고 있는 메소드 문의|optional|✔|✔|서버가 제공하고 있는 메소드를 알려준다. e.g. Request: `OPTIONS * HTTP /1.1 Host: www.hackr.jp`<br>Response: `HTTP /1.1 200 OK Allow: GET, POST. HEAD, OPTIONS`|
+|`OPTIONS`|리퀘스트 URI로 지정한 리소스가 제공하고 있는 메소드 문의|optional|✔|✔|서버가 허용하는 메소드를 알려준다. e.g. Request: `OPTIONS * HTTP /1.1 Host: www.hackr.jp`<br>Response: `HTTP /1.1 200 OK Allow: GET, POST. HEAD, OPTIONS`|
 |`TRACE`|대상 리소스에 대한 경로를 따라 메시지 루프백 테스트를 수행|❌|✔|✔|거의 사용되지 않는다.|
 |`CONNECT`|프록시에 터널링 요구|✔|✔|❌|프록시에 터널 접속 확림을 요함으로써 TCP 통신을 터널링 시키기 위해 사용한다. 주로 SSL, TLS 등 프로토콜로 암호화된 것을 터널링 시키기 위해 사용한다.|
 |`LINK`|리소스 간 링크 관계 확립|-|-|-|HTTP /1.1에서 폐기되었다.|
@@ -107,6 +107,8 @@ DELETE /members/100 → 404
 `DELETE`를 여러 번 호출하면 응답 코드는 달라질 수 있지만, 100번 member가 삭제된 것은 동일하다.
 
 <br>마지막으로, 보안상의 이유로 대부분의 웹 서버가 `GET`,`POST` 2개 또는 `OPTIONS` 포함 3개만을 허용한다.
+
+<br>`OPTIONS`는 백엔드에서 직접 구현하는 메소드가 아닌 서버 자체가 허용하고 있는 메소드들을 알려주는 방식으로 동작한다(커스텀 가능).
 
 <br><br>
 
