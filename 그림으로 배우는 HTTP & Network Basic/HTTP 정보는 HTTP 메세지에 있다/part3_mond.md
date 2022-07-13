@@ -32,7 +32,7 @@
 - HTTP로 데이터를 인코딩(변환)하면 전송 효율 상승, 다량의 액세스 효율 상승
 - 컴퓨터에서 인코딩 처리를 해야해 CPU 등의 리소스는 보다 많이 소비
     
-    ### 3.3.1 massage Body와 entity Body의 차이
+    ### 3.3.1 message Body와 entity Body의 차이
 
     | message | entity |
     | :---: | :---: |
@@ -85,7 +85,7 @@
 
 ### Range request
 - entity의 범위를 지정하여 request한다. 
-- 전체 1000byte 정도 크기의 리소스에서 5001~10000byte의 범위(byte range)만을 리퀘스트 할 수 있다.
+- 전체 10000byte 정도 크기의 리소스에서 5001~10000byte의 범위(byte range)만을 리퀘스트 할 수 있다.
 - range request를 할때 range 헤더 필드를 사용하여 리소스의 byte range를 지정한다. 
 
 - 💚byte range 지정형식
@@ -128,7 +128,7 @@ ex)브라우저가 같은 URI에 엑세스할 때 각각 영어판 웹 페이지
 - 클라이언트 측에서 Negotiation하는 방식   
 - 선택지 중에서 유저가 수동으로 선택   
 - JavaScript 등을 사용해서 웹 페이지에서 자동적으로 정하는 것도 있다.</br>
-ex) OS의 종류나 브라우저의 종류 등에 의해서 PC용과 스마트용의 웹 페이지를 자동으로 전환하는 것
+ex) OS의 종류나 브라우저의 종류 등에 의해서 PC용과 스마트폰용의 웹 페이지를 자동으로 전환하는 것
 
 #### 💚Trnasparent Negotiation
 - Server와 agent를 혼합, 서버와 클라이언트가 각각 Negotiation하는 방식 
